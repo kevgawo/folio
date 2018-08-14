@@ -1,0 +1,22 @@
+{
+  "name": "porfolio",
+  "version": "1.0.0",
+  "description": "this is a porfolio website",
+  "main": "server.js",
+  "scripts": {
+    "test": "start",
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "css",
+    "nodejs",
+    "portfolio",
+    "website",
+    "webdevelopment"
+  ],
+  "author": "Kevin Gawo",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
