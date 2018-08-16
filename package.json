@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "start",
-    "start": "nodemon server.js"
+    "start": "node server.js"
   },
   "keywords": [
     "css",
@@ -17,7 +17,6 @@
   "author": "Kevin Gawo",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.3",
-    "nodemon": "^1.18.3" 
+    "express": "^4.16.3"
   }
 }
