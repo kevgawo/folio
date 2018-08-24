@@ -1,7 +1,7 @@
 var express = require('express');
 var path = require('path');
 var app = express();
-var port = process.env.port || 5000 ;
+var PORT = process.env.PORT || 5000 ;
 
 
 app.use('/', express.static('public'));
@@ -12,6 +12,6 @@ app.get('/', function (req, res) {
 
 
 
-app.listen(port, "0.0.0.0", function() {
-console.log("Listening on Port 5000");
+app.listen(PORT, '0.0.0.0', function() {
+console.log(`Listening on Port ${PORT}`);
 });
